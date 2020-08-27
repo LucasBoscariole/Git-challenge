@@ -1,5 +1,4 @@
-import * as express from 'express';
-import { Request, Response } from 'express';
+import express, { Request, Response } from 'express';
 
 function handleHelloWorld(_: Request, res: Response) {
   res.json({ msg: 'Hello, world' });
